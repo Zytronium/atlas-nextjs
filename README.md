@@ -1,3 +1,31 @@
+# Full Stack React
 ## Atlas Next JS
 
-This is the starter template for the Atlas Next JS project. It contains the starting code for the Q&A application.
+Next.js is a backend framework that uses React and many other tools to create
+a website. It allows for not only client components like normal React, but
+also server components that are pre-rendered on the server so the client doesn't
+have to generate it, which helps with SEO and performance.
+
+---
+
+Part 1
+### ✅ Tasks checklist:
+- [X] ​0. Getting Started (0/0 pts)
+- [ ] ​1. App Routing (0/20 pts)
+- [ ] ​2. Setup Database (0/10 pts)
+- [ ] ​3. Data Fetching (0/20 pts)
+- [ ] ​4. Server Actions (0/20 pts)
+- [ ] ​5. Authentication (0/20 pts)
+- [ ] ​6. Deploy Application (0/10 pts)
+
+- [ ] **Everything Done ✓** (0/100 pts) - 0%
+
+>### Progress Goals:
+><strong>Friday: 20% (task 1)</strong>  
+<em style="color: gray">Saturday/Sunday: 50% (task 3)</em>  
+<em style="color: gray">Monday: 70-80% (task 4)</em>  
+<em style="color: gray">Tuesday: 100% (task 6)</em>  
+
+Completed: `N/A`
+
+---
