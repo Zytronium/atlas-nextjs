@@ -11,17 +11,17 @@ have to generate it, which helps with SEO and performance.
 Part 1
 ### ✅ Tasks checklist:
 - [X] ​0. Getting Started (0/0 pts)
-- [ ] ​1. App Routing (0/20 pts)
+- [X] ​1. App Routing (20/20 pts)
 - [ ] ​2. Setup Database (0/10 pts)
 - [ ] ​3. Data Fetching (0/20 pts)
 - [ ] ​4. Server Actions (0/20 pts)
 - [ ] ​5. Authentication (0/20 pts)
 - [ ] ​6. Deploy Application (0/10 pts)
 
-- [ ] **Everything Done ✓** (0/100 pts) - 0%
+- [ ] **Everything Done ✓** (20/100 pts) - 20%
 
 >### Progress Goals:
-><strong>Friday: 20% (task 1)</strong>  
+><strong>Friday: 20% ✓(task 1)</strong>  
 <em style="color: gray">Saturday/Sunday: 50% (task 3)</em>  
 <em style="color: gray">Monday: 70-80% (task 4)</em>  
 <em style="color: gray">Tuesday: 100% (task 6)</em>  
