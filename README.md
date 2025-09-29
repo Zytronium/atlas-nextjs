@@ -13,12 +13,12 @@ Part 1
 - [X] ​0. Getting Started (0/0 pts)
 - [X] ​1. App Routing (20/20 pts)
 - [X] ​2. Setup Database (10/10 pts)
-- [ ] ​3. Data Fetching (0/20 pts)
+- [X] ​3. Data Fetching (20/20 pts)
 - [ ] ​4. Server Actions (0/20 pts)
 - [ ] ​5. Authentication (0/20 pts)
 - [ ] ​6. Deploy Application (0/10 pts)
 
-- [ ] **Everything Done ✓** (30/100 pts) - 30%
+- [ ] **Everything Done ✓** (50/100 pts) - 50%
 
 >### Progress Goals:
 ><strong>Friday: 20% ✓(task 1)</strong>  

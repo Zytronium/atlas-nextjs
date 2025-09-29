@@ -1,4 +1,4 @@
-import VoteButton from "./VoteButton";
+import VoteButton from "@/components/VoteButton";
 
 type QuestionProps = {
   id: string;

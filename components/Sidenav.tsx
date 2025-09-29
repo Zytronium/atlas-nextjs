@@ -1,9 +1,9 @@
 import Image from "next/image";
 import logo from "@/assets/logo.png";
-import TopicLinks from "./TopicLinks";
-import NavLink from "./NavLink";
-import SignOutButton from "./SignOutButton";
-import NewTopicButton from "./NewTopicButton";
+import TopicLinks from "@/components/TopicLinks";
+import NavLink from "@/components/NavLink";
+import SignOutButton from "@/components/SignOutButton";
+import NewTopicButton from "@/components/NewTopicButton";
 import Link from "next/link";
 
 export default async function SideNav() {
