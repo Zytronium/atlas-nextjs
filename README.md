@@ -12,13 +12,13 @@ Part 1
 ### ✅ Tasks checklist:
 - [X] ​0. Getting Started (0/0 pts)
 - [X] ​1. App Routing (20/20 pts)
-- [ ] ​2. Setup Database (0/10 pts)
+- [X] ​2. Setup Database (10/10 pts)
 - [ ] ​3. Data Fetching (0/20 pts)
 - [ ] ​4. Server Actions (0/20 pts)
 - [ ] ​5. Authentication (0/20 pts)
 - [ ] ​6. Deploy Application (0/10 pts)
 
-- [ ] **Everything Done ✓** (20/100 pts) - 20%
+- [ ] **Everything Done ✓** (30/100 pts) - 30%
 
 >### Progress Goals:
 ><strong>Friday: 20% ✓(task 1)</strong>  
