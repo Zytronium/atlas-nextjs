@@ -15,17 +15,17 @@ Part 1
 - [X] ​2. Setup Database (10/10 pts)
 - [X] ​3. Data Fetching (20/20 pts)
 - [X] ​4. Server Actions (20/20 pts)
-- [ ] ​5. Authentication (0/20 pts)
-- [ ] ​6. Deploy Application (0/10 pts)
+- [X] ​5. Authentication (20/20 pts)
+- [X] ​6. Deploy Application (10/10 pts)
 
-- [ ] **Everything Done ✓** (70/100 pts) - 70%
+- [X] **Everything Done ✓** (100/100 pts) - 100%
 
 >### Progress Goals:
 ><strong>Friday: 20% ✓(task 1)</strong>  
 <strong>Saturday/Sunday: 50% (task 3)</strong>  
 <strong>Monday: 70-80% ✓(task 4)</strong>  
-<em style="color: gray">Tuesday: 100% (task 6)</em>  
+<stron>Tuesday: 100% (task 6)</stron>  
 
-Completed: `N/A`
+Completed: Wednesday, October 1st 2025
 
 ---

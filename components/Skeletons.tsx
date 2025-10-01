@@ -4,6 +4,7 @@ import { HashtagIcon } from "@heroicons/react/24/outline";
 const shimmer =
   "before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_2s_infinite] before:bg-linear-to-r before:from-transparent before:via-white/60 before:to-transparent";
 
+// I'll name this skeleton Sans
 export function AskQuestionSkeleton() {
   return (
     <div className="flex flex-row items-center justify-between border-b border-gray-100 py-2">
@@ -15,6 +16,7 @@ export function AskQuestionSkeleton() {
   );
 }
 
+// I'll name this skeleton Papyrus
 export function QuestionSkeleton() {
   return (
     <div className="flex flex-row items-center justify-between border-b border-gray-100 py-4">
@@ -28,6 +30,7 @@ export function QuestionSkeleton() {
   );
 }
 
+// I ran out of skeleton names
 export function TopicsSkeleton() {
   return (
     <div
