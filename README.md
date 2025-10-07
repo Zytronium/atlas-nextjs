@@ -32,15 +32,15 @@ Completed: Wednesday, October 1st 2025
 **Part 2**
 ### ✅ Tasks checklist:
 - [X] ​0. Getting Started (0/0 pts)
-- [ ] ​1. Question Page - UI Components (15/20 pts)
-- [ ] ​2. Question Page - Data Fetching (0/20 pts)
+- [x] ​1. Question Page - UI Components (20/20 pts)
+- [ ] ​2. Question Page - Data Fetching (5/20 pts)
 - [ ] ​3. Question Page - Server Actions (0/20 pts)
 - [ ] ​4. REST APIs (0/15 pts)
 - [ ] ​5. OAuth Authentication (0/15 pts)
 - [ ] ​6. Deploy Application (0/10 pts)
 
 
-- [ ] **Everything Done ✓** (0/100 pts) - 0%
+- [ ] **Everything Done ✓** (25/100 pts) - 25%
 
 >### Progress Goals:
 ><strong>Friday-Sunday: 20% (task 1)</strong>  

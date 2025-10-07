@@ -2,30 +2,30 @@ import { AnswerQuestion } from "@/components/AnswerQuestion";
 import { Answer } from "@/components/Answer";
 import { fetchQuestion, /*fetchAnswers,*/ fetchTopic } from "@/lib/data";
 import { HashtagIcon } from "@heroicons/react/24/outline";
-import { Question } from "@/components/Question";
-import { AskQuestion } from "@/components/AskQuestion";
 
 function fetchAnswers(id: string) {
   return [
     {
       id: "1",
-      content: "This is a mock answer.",
-      votes: 75701,
-      correct: true
+      answer: "This is a mock answer.",
+      question_id: "0b93d8dc-6e43-49e3-b59f-b67531247612"
     },
     {
       id: "2",
-      content: "This is another mock answer, but it's not as good as the one above.",
-      votes: 26,
-      correct: false
+      answer: "This is another mock answer, but it's not as good as the one above.",
+      question_id: "0b93d8dc-6e43-49e3-b59f-b67531247612"
     },
     {
       id: "3",
-      content: "This is yet another mock answer, but it's really bad advice. Wait how the hell do I have negative vo-.",
-      votes: -13,
-      correct: false
+      answer: "This is yet another mock answer, but it's really bad advice. Wait how the hell do I have negative vo-.",
+      question_id: "959e8a94-2135-4a38-891e-12d5aae5708d"
+    },
+    {
+      id: "0b93d8dc-6e43-49e3-b59f-b67531247612",
+      answer: "It's a new feature in TypeScript that makes it easier to write type-safe code.",
+      question_id: "0b93d8dc-6e43-49e3-b59f-b67531247612"
     }
-    ];
+    ].filter(q => q.question_id == id);
 }
 
 export default async function Page({ params }: {
@@ -44,14 +44,13 @@ export default async function Page({ params }: {
       <h1 className="text-3xl font-black flex items-center">
         <HashtagIcon className="h-6 w-6 mr-2" /> {question.title}
       </h1>
-      <AskQuestion topic={question.id} />
+      <AnswerQuestion topic={question.id} />
       {answers.map((answer) => (
-        <Question
+        <Answer
           key={answer.id}
           id={answer.id}
-          text={answer.content}
-          votes={answer.votes}
-          // correct={answer.correct}
+          answer={answer.answer}
+          correct={question.answer_id === answer.id}
         />
       ))}
     </div>
