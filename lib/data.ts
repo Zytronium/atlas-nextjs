@@ -27,7 +27,7 @@ export async function fetchTopic(id: string) {
     return data.rows && data.rows.length > 0 ? data.rows[0] : null;
   } catch (error) {
     console.error("Database Error:", error);
-    throw new Error("Failed to fetch topics.");
+    throw new Error("Failed to fetch topic.");
   }
 }
 
@@ -39,6 +39,16 @@ export async function fetchQuestions(id: string) {
   } catch (error) {
     console.error("Database Error:", error);
     throw new Error("Failed to fetch questions.");
+  }
+}
+
+export async function fetchQuestion(id: string) {
+  try {
+    const data = await sql<Question>`SELECT * FROM questions WHERE id = ${id}`;
+    return data.rows && data.rows.length > 0 ? data.rows[0] : null;
+  } catch (error) {
+    console.error("Database Error:", error);
+    throw new Error("Failed to fetch question.");
   }
 }
 
