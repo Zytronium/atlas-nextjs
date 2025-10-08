@@ -1,11 +1,12 @@
 import { CheckCircleIcon } from "@heroicons/react/24/outline";
-import { addVote } from "@/lib/actions";
+import { markCorrect } from "@/lib/actions";
 import clsx from "clsx";
 
-export default function AnswerButton({ id, correct }: { id: string, correct: boolean }) {
+export default function AnswerButton({ id, question_id, correct }: { id: string, question_id: string, correct: boolean }) {
   return (
-    <form action={addVote}>
+    <form action={markCorrect}>
       <input type="hidden" name="id" value={id} />
+      <input type="hidden" name="question_id" value={question_id} />
       <button
         type="submit"
         className={clsx(

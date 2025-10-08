@@ -26,12 +26,13 @@ export default async function Page({ params }: {
       <h1 className="text-3xl font-black flex items-center">
         <HashtagIcon className="h-6 w-6 mr-2" /> {question.title}
       </h1>
-      <AnswerQuestion topic={question.id} />
+      <AnswerQuestion question={question.id} />
       {sortedAnswers.map((answer) => (
         <Answer
           key={answer.id}
           id={answer.id}
           answer={answer.answer}
+          question_id={question.id}
           correct={question.answer_id === answer.id}
         />
       ))}
