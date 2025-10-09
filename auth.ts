@@ -1,5 +1,6 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
+import GitHub from "next-auth/providers/github"
 import { fetchUser } from "@/lib/data";
 import bcrypt from "bcryptjs";
 
@@ -33,10 +34,11 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         return null;
       },
     }),
+    GitHub
   ],
   callbacks: {
     authorized: async ({ auth }) => {
-      // Logged in users are authenticated, otherwise redirect to login page
+      // Logged-in users are authenticated, otherwise redirect to login page
       return !!auth;
     },
   },
