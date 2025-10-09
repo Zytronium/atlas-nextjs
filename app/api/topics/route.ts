@@ -1,4 +1,6 @@
-export async function GET(request) {
-  return new Response('GET from route');
-}
+import { fetchTopics } from "@/lib/data";
 
+export async function GET() {
+  const topics = await fetchTopics();
+  return Response.json(topics);
+}
