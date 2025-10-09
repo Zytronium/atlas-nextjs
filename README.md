@@ -36,8 +36,8 @@ Completed: Wednesday, October 1st 2025
 - [X] ​2. Question Page - Data Fetching (20/20 pts)
 - [X] ​3. Question Page - Server Actions (20/20 pts)
 - [X] ​4. REST APIs (15/15 pts)
-- [X] ​5. OAuth Authentication (5/15 pts)
-- [X] ​6. Deploy Application (9.5/10 pts)
+- [ ] ​5. OAuth Authentication (14/15 pts) \*Something's terribly messed up and I can't figure out why
+- [X] ​6. Deploy Application (10/10 pts)
 
 
 - [ ] **Everything Done ✓** (99/100 pts) - 99%
