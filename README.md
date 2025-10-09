@@ -36,11 +36,11 @@ Completed: Wednesday, October 1st 2025
 - [X] ​2. Question Page - Data Fetching (20/20 pts)
 - [X] ​3. Question Page - Server Actions (20/20 pts)
 - [X] ​4. REST APIs (15/15 pts)
-- [ ] ​5. OAuth Authentication (10/15 pts)
-- [X] ​6. Deploy Application (10/10 pts)
+- [X] ​5. OAuth Authentication (14.5/15 pts)
+- [X] ​6. Deploy Application (9.5/10 pts) \*Need to verify it works in production
 
 
-- [ ] **Everything Done ✓** (95/100 pts) - 95%
+- [ ] **Everything Done ✓** (99/100 pts) - 99%
 
 >### Progress Goals:
 ><strong>Friday-Sunday: 20% (task 1)</strong>  

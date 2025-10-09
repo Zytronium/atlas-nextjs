@@ -5,6 +5,7 @@ import NavLink from "@/components/NavLink";
 import SignOutButton from "@/components/SignOutButton";
 import NewTopicButton from "@/components/NewTopicButton";
 import Link from "next/link";
+import { LoggedInUser } from "@/components/LoggedInUser";
 
 export default async function SideNav() {
   return (
@@ -15,6 +16,7 @@ export default async function SideNav() {
         <TopicLinks />
         <div className="hidden h-auto w-full grow rounded-md bg-gray-50 md:block"></div>
         <NewTopicButton />
+        <LoggedInUser />
         <SignOutButton />
       </div>
     </div>
